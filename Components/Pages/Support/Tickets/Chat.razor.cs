@@ -19,12 +19,12 @@ namespace UI_Kit_Sample.Components.Pages.Support.Tickets
 
         public List<ChatDataModel> ContactData = new List<ChatDataModel>
         {
-            new ChatDataModel { Id = 1, Name = "Marvin McKinney", Content = "Oh yeah, I did! I’ve heard it.", Avatar = "avatar-8.jpg", Send = true },
+            new ChatDataModel { Id = 1, Name = "Marvin McKinney", Content = "Oh yeah, I did! I’ve heard it.", Avatar = "avatar-1.jpg", Send = true },
             new ChatDataModel { Id = 2, Name = "Leslie Alexander", Content = "That’s likely the issue.", Avatar = "avatar-9.jpg", Send = false },
             new ChatDataModel { Id = 3, Name = "Savannah Nguyen", Content = "Well, if there’s one thing I know...", Avatar = "avatar-10.jpg", Send = true },
-            new ChatDataModel { Id = 4, Name = "Robert Fox", Content = "Easy. A lifetime supply of happiness!", Avatar = "avatar-13.jpg", Send = false },
+            new ChatDataModel { Id = 4, Name = "Robert Fox", Content = "Easy. A lifetime supply of happiness!", Avatar = "avatar-2.jpg", Send = false },
             new ChatDataModel { Id = 5, Name = "Bessie Cooper", Content = "Oh, and maybe a pet too!", Avatar = "avatar-11.jpg", Send = true },
-            new ChatDataModel { Id = 6, Name = "Guy Hawkins", Content = "Definitely! And don’t forget to smile.", Avatar = "avatar-2.jpg", Send = true },
+            new ChatDataModel { Id = 6, Name = "Guy Hawkins", Content = "Definitely! And don’t forget to smile.", Avatar = "avatar-3.jpg", Send = true },
             new ChatDataModel { Id = 7, Name = "Wade Warren", Content = "Easy, just roll up some ideas.", Avatar = "avatar-4.jpg", Send = true },
             new ChatDataModel { Id = 8, Name = "Darrell Steward", Content = "Genius! I’m going to start a new project.", Avatar = "avatar-6.jpg", Send = true },
             new ChatDataModel { Id = 9, Name = "Esther Howard", Content = "annette.black@fusionui.com", Avatar = "avatar-14.jpg", Send = true }

@@ -1,0 +1,30 @@
+@namespace UI_Kit_Sample.Components.Layout
+
+@inject NavigationManager Navigation
+
+<section class="bg-white dark:bg-gray-950">
+    <div style="height: 600px;">
+        <SfSidebar class="bg-gray-50 dark:bg-gray-900 !border-r !border-gray-200 dark:!border-gray-700" Width="72px" Type="SidebarType.Push" MediaQuery="(min-width: 600px)">
+            <div class="pt-6">
+                <div class="flex justify-center items-center mb-3 px-3">
+                    <img src="assets/images/common/brand-logos/svg/vector.svg" alt="company logo" />
+                </div>
+                <div class="mt-1">
+                    <SfListView CssClass="border-0 e-bigger" DataSource="@ListData">
+                        <ListViewEvents TValue="SidebarMenuItem" Clicked="OnClickSidebarItem"></ListViewEvents>
+                        <ListViewFieldSettings TValue="SidebarMenuItem" Id="Id" Text="Title" HtmlAttributes="SelectedItem"></ListViewFieldSettings>
+                        <ListViewTemplates TValue="SidebarMenuItem">
+                            <Template>
+                                <div class="e-list-wrapper flex justify-center items-center">
+                                    <span class="flex items-center">
+                                        <span class="e-large e-icons @context.FontIcon"></span>
+                                    </span>
+                                </div>
+                            </Template>
+                        </ListViewTemplates>
+                    </SfListView>
+                </div>
+            </div>
+        </SfSidebar>
+    </div>
+</section>
